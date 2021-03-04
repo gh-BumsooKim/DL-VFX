@@ -10,6 +10,15 @@
 - GTX 1060 3G (GPU)
 - Install Package :
 
-```bash
+```cmd
 sudo pip3 install -r requirements.txt
+```
+
+### (for python virtual environment user)
+- Python3 venv (not Python2 virtualenv, and pyvenv) :
+
+```cmd
+cd [dir_path]
+python -m venv .venv
+source .venv/bin/activate
 ```
