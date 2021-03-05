@@ -1,6 +1,6 @@
 # DeepLearning VFX
 
-중앙대학교 첨단영상대학원 영상학과 - 딥러닝 시각효과 강의
+**중앙대학교 첨단영상대학원 영상학과 - 딥러닝 시각효과**
 
 ## Environment
 - Ubuntu 20.04 LTS (OS)
@@ -20,16 +20,23 @@ cd [dir_path]
 python -m venv .venv
 source .venv/bin/activate
 ```
+
+- Anaconda3 :
+```cmd
+conda create -n venv python=3.7.8
+conda activate venv
+```
+
 ### (check your environment)
 - CUDA :
 ```cmd
-nvcc -v #nvcc --version
+nvcc -v # nvcc --version
 whereis cuda
 ```
 
 - cuDNN :
 ```cmd
-cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2 # your cudnn.h PAT
+cat /usr/lib/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2 # your cudnn.h PATH
 ```
 
 - GPU driver :
