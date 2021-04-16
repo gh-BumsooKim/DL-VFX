@@ -5,9 +5,9 @@
 ## Environment
 - Ubuntu 20.04 LTS (OS)
 - Python 3.7.8
-- CUDA 10.1
-- cuDNN 7.6.5
-- GeForce GTX 1060 3GB (GPU) / Compute Capability 6.1
+- CUDA 11.1
+- cuDNN 8.0.5
+- GeForce GTX 3080 10GB (GPU) / Compute Capability 8.6
 - Install Package :
 ```cmd
 sudo pip3 install -r requirements.txt
