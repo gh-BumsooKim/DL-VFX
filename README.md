@@ -2,6 +2,11 @@
 
 **중앙대학교 첨단영상대학원 영상학과 - 딥러닝 시각효과**
 
+**3D Voxel Face Generative Model**
+<br>[Bumsoo Kim](https://github.com/gh-BumsooKim)\* (\*Graphics Realization Lab, CAU)
+<br>In Deep Learning VFX Lecture, the graduate school of Advanced Imaging Science, Multimedia & Film, Chung-Ang University
+
+
 ## Environment
 - Ubuntu 20.04 LTS (OS)
 - Python 3.7.8
@@ -23,15 +28,17 @@ source .venv/bin/activate
 
 - Anaconda3 :
 ```cmd
-conda create -n venv python=3.7.8
-conda activate venv
+(base)conda create -n venv python=3.7.8
+(base)conda activate venv
+
+(venv)conda install -n venv spyder
 ```
 
 ### (check your environment)
 - CUDA :
 ```cmd
 nvcc -v # nvcc --version
-whereis cuda
+which cuda
 ```
 
 - cuDNN :
