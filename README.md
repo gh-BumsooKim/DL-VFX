@@ -2,16 +2,17 @@
 
 **중앙대학교 첨단영상대학원 영상학과 - 딥러닝 시각효과**
 
-**3D Voxel Face Generative Model**
+**Face Generative Model**
 <br>[Bumsoo Kim](https://github.com/gh-BumsooKim)\* (\*Graphics Realization Lab, CAU)
 <br>In Deep Learning VFX Lecture, the graduate school of Advanced Imaging Science, Multimedia & Film, Chung-Ang University
 
 
 ## Environment
 - Ubuntu 20.04 LTS (OS)
-- Python 3.7.8
+- Python 3.7.9
 - CUDA 11.1
 - cuDNN 8.0.5
+- Pytorch : 1.8.1 with CUDA 11.1
 - GeForce GTX 3080 10GB (GPU) / Compute Capability 8.6
 - Install Package :
 ```cmd
