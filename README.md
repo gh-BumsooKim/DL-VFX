@@ -7,8 +7,15 @@
 <br>In Deep Learning VFX Lecture, the graduate school of Advanced Imaging Science, Multimedia & Film, Chung-Ang University
 
 
+## Application
+
+| Index | Model | Epochs | Result | Generated Image | Note❗ | Visualizing | 
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | [Simple Generative Model V1](face_generate_model_v1_failure.ipynb) | 500 | **Failure** | ![](imgs/v1_1_to_7_epoch.gif) | Mode collapse after 8 Epoch | [v1_vis.ipynb](face_generate_model_v1_failure_vis.ipynb) |
+| 2 | [Simple Generative Model V2](face_generate_model_v2_failure.ipynb) | 120 | **Failure** | ![](imgs/v2_2_to_12_epoch.gif) | Mode collapse after 13 Epoch | [v2_vis.ipynb](face_generate_model_v2_failure_vis.ipynb) |
+
 ## Environment
-- Ubuntu 20.04 LTS (OS)
+- WIndows10 (OS)
 - Python 3.7.9
 - CUDA 11.1
 - cuDNN 8.0.5
