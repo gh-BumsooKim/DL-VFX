@@ -16,6 +16,8 @@
 | 3 | [Simple Generative Model V3](face_generate_model_v3_failure.ipynb) | 20 | **Failure** | ![](imgs/v3_1_to_14_epoch.gif) | Mode collapse after 15 Epoch | **Merged into the original file** |
 | 4 | [Simple Generative Model V4](face_generate_model_v4_super_failure.ipynb) | 20 | **Super Failure** | ![](imgs/v4_1_to_20_epoch.gif) | Mode collapse after 1 Epoch | **Merged into the original file** |
 | 5 | [Simple Generative Model V5](face_generate_model_v5_failure.ipynb) | 20 | **Failure** | ![](imgs/v5_1_to_20_epoch.gif) | Mode collapse after 3 Epoch | **Merged into the original file** |
+| 6 | [Simple Generative Model V6](face_generate_model_v6_failure.ipynb) | 20 | **Failure** | ![](imgs/v6_1_to_20_epoch.gif) | Mode collapse after 8 Epoch | **Merged into the original file** |
+| 7 | [4 Layer Generator Model V7](face_generate_model_v7_failure.ipynb) | 20 | **Failure** | ![](imgs/v7_1_to_20_epoch.gif) | Mode collapse after 10 Epoch | **Merged into the original file** |
 
 ## Environment
 - WIndows10 (OS)
